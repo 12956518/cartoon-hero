@@ -4,9 +4,9 @@
 	<title>Stylish</title>
 	<style type="text/css">
 .garden {
-  position: relative;
+  position: absolute;
   width : 100vh;
-  height: 100vw;
+  height: 50vw;
   border: 5px solid #CCC;
   border-radius: 10px;
 }
@@ -63,6 +63,7 @@ function handleOrientation(event) {
   ball.style.top  = (maxX*x/180 - 10) + "px";
   ball.style.left = (maxY*y/180 - 10) + "px";
 }
+
 
 window.addEventListener('deviceorientation', handleOrientation);</script>
 
